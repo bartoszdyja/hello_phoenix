@@ -29,5 +29,3 @@ dependencies:
 test:
   override:
     - mix test
-    - mkdir -p $CIRCLE_TEST_REPORTS/exunit
-    - cp _build/test/lib/hello_phoenix/results.xml $CIRCLE_TEST_REPORTS/exunit
