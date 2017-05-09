@@ -29,3 +29,8 @@ dependencies:
 test:
   override:
     - mix test
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: peaceful-tundra-35227
